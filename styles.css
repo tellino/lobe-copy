@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  cursor: default;
+  color: #333;
+}
+
+*::selection {
+  background-color: #87ffe75d;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.svg--logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav--links {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 22px;
+}
+
+.nav--link:link,
+.nav--link:visited {
+  color: #767676;
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+.nav--link:link:hover,
+.nav--link:visited:hover {
+  color: #333;
+}
+
+.nav--link.selected {
+  color: #333;
+}
+
+.btn {
+  font-size: 24px;
+  background-color: #04ddb2;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--download {
+  border-radius: 50px;
+  padding: 20px 35px;
+  color: white;
+  font-weight: 700;
+}
+
+.hover--scale {
+  transition: 0.3s;
+}
+
+.hover--scale:hover {
+  transform: scale(1.1);
+}
+
+.flex--layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout--title h1 {
+  font-size: 76px;
+  color: #333;
+  margin-top: 30px;
+}
+
+.layout--title p {
+  font-size: 28px;
+  width: 600px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main--color {
+  color: #04ddb2;
+}
+
+.video--preview {
+  width: 80%;
+  max-width: 1400px;
+  margin-top: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.video--preview:hover {
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.104);
+  transform: scale(1.03);
+}
+
+.download--title {
+  margin: 80px 0;
+  font-size: 5vw;
+  width: 40vw;
+  text-align: center;
+}
+
+.btn.big {
+  padding: 20px 60px;
+}
+
+hr {
+  display: block;
+  width: 80%;
+  border: none;
+  border-top: 1px solid rgba(51, 51, 51, 0.438);
+  margin: 80px;
+}
+
+footer {
+  width: 80%;
+  max-width: 900px;
+
+  display: flex;
+}
+
+.sitemap {
+  display: grid;
+
+  grid-template-columns: 300px repeat(3, 1fr);
+  font-size: 18px;
+
+  gap: 25px;
+  margin-bottom: 200px;
+  text-align: left;
+  align-items: center;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.svg--small {
+  width: 100px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  height: 150px;
+  margin: 20px 40px;
+}
+
+.icon {
+  background-color: #04ddb2;
+  border-radius: 100%;
+  padding: 5px;
+}
